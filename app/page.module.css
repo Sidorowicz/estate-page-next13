@@ -1,0 +1,58 @@
+ .main {
+   margin: 0;
+ }
+
+ .landingPageInformation {
+   background-size: cover;
+   background-image: url('../public/assets/house.png');
+ }
+
+
+ .textDivider {
+   margin: 2em 0;
+   line-height: 0;
+   text-align: center;
+ }
+
+ .textDivider span {
+   background-color: #fff;
+   padding: 1em;
+ }
+
+ .textDivider:before {
+   content: " ";
+   display: block;
+   border-top: 1px solid rgb(221, 221, 221);
+   border-bottom: 0.5px solid rgb(56, 56, 56);
+ }
+
+ .detailsGridElement {
+   font-weight: 700;
+   padding: 64px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .footerSocialElement {
+   color: white;
+   text-decoration: none;
+ }
+
+
+ .footerSocialElement:hover {
+   color: lightgray;
+ }
+
+ .footerSocialsHeader {
+   color: #FFC436;
+ }
+
+ .footerContactElement {
+   color: #FFC436;
+ }
+
+ .footerPartnersElement {
+   color: #FFC436;
+ }
