@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from "react"
+import styles from '../page.module.css'
 
 const ContactForm = () => {
     const [contact, setContact] = useState('')
@@ -48,6 +49,10 @@ const ContactForm = () => {
                         </form>}
 
                 </div>
+            </div>
+            <div className="row">
+                <h2 className={styles.textDivider}><span>Find Us</span></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2394.0350607048354!2d23.17952097698673!3d53.1275161910741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffeaf8f5f1b31%3A0x722dff80f3f5f2cd!2sWarszawska%20107%2C%2015-201%20Bia%C5%82ystok!5e0!3m2!1spl!2spl!4v1698425463675!5m2!1spl!2spl" width="600" height="650" style={{ border: 0, padding: 0, margin: 0, width: '100%' }} loading="lazy" ></iframe>
             </div>
         </div>
     )

@@ -8,6 +8,12 @@ body {
   background: 'red'
 }
 
+.textDivider {
+  margin: 2em 0;
+  line-height: 0;
+  text-align: center;
+}
+
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* :root {
